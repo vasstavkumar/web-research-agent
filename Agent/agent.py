@@ -24,7 +24,7 @@ def initialize_agent():
     try:
         server = MCPServerStdio(
             command='python3',
-            args=['/Users/vasstavkumarchava/Desktop/Web Research Agent/server/tools.py'],
+            args=['server/tools.py'],
         )
         print("MCP server initialized.")
         return Agent(
