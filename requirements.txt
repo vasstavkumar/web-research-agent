@@ -4,3 +4,4 @@ requests
 google-search-results
 beautifulsoup4
 streamlit
+requests
