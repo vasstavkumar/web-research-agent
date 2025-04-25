@@ -1,7 +1,4 @@
 import os
-import sys
-import subprocess
-subprocess.check_call([sys.executable, "-m", "pip", "install", "requests"])
 import requests
 from mcp.server.fastmcp import FastMCP
 from serpapi import GoogleSearch
