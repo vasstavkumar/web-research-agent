@@ -14,6 +14,9 @@ import asyncio
 from util import load_instruction_from_file
 from dotenv import load_dotenv
 import os
+import sys
+import subprocess
+subprocess.check_call([sys.executable, "-m", "pip", "install", "requests"])
 
 # Load environment variables
 load_dotenv()
